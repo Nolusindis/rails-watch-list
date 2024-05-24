@@ -1,2 +1,23 @@
 // Import page-specific CSS files here.
 @import "home";
+
+.poster {
+  width: 300px;
+  height: 350px;
+}
+
+a {
+  color: rgb(13, 95, 82);
+
+  &:hover {
+    color: rgb(139, 37, 37);
+  }
+}
+
+body {
+  background: $white; // Using this variable
+}
+
+p {
+  padding: $spacer ($spacer * 3);
+}
